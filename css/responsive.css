@@ -1,0 +1,33 @@
+@media screen and (max-width:665px) {
+    .score-panel {
+        width: calc(100% - 20px);
+        margin: 0 10px 10px;
+    }
+
+    .deck {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .deck .card {
+        margin: 10px 0;
+    }
+
+    #modal {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:360px) {
+    .deck .card {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media screen and (min-width:361px) and (max-width:420px) {
+    .deck .card {
+        width: 100px;
+        height: 100px;
+    }
+}
